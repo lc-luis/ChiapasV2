@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/_Escenas/MenuPrincipal.unity
   - enabled: 1
     path: Assets/_Escenas/LeveL1.unity
+  - enabled: 1
+    path: Assets/Fingers/Demo/DemoScene.unity
