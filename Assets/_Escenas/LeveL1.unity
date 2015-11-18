@@ -128,8 +128,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 291455753}
   m_LocalRotation: {x: 0, y: 0, z: .0105272764, w: .999944627}
-  m_LocalPosition: {x: 7670, y: 263, z: 5167}
-  m_LocalScale: {x: 200, y: 20, z: 200}
+  m_LocalPosition: {x: 324.700012, y: 43.2000008, z: 322.799988}
+  m_LocalScale: {x: 12, y: 2, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -171,7 +171,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 0
 --- !u!23 &291455758
 MeshRenderer:
@@ -245,15 +245,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400058, guid: 3077ae4e64cfb4606a6609fbb02234eb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: .25
       objectReference: {fileID: 0}
     - target: {fileID: 400058, guid: 3077ae4e64cfb4606a6609fbb02234eb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: .25
       objectReference: {fileID: 0}
     - target: {fileID: 400058, guid: 3077ae4e64cfb4606a6609fbb02234eb, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: .25
       objectReference: {fileID: 0}
     - target: {fileID: 400056, guid: 3077ae4e64cfb4606a6609fbb02234eb, type: 3}
       propertyPath: m_RootOrder
@@ -910,7 +910,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595238800}
   m_LocalRotation: {x: .134548098, y: .00141650403, z: .0104315421, w: .990851223}
-  m_LocalPosition: {x: 7664, y: 447, z: 4420}
+  m_LocalPosition: {x: 312.799988, y: 51.9000015, z: 269.299988}
   m_LocalScale: {x: 200, y: 20, z: 200}
   m_Children: []
   m_Father: {fileID: 0}
@@ -952,7 +952,6 @@ GameObject:
   - 4: {fileID: 1673463895}
   - 218: {fileID: 1673463894}
   - 154: {fileID: 1673463893}
-  - 65: {fileID: 1673463896}
   m_Layer: 2
   m_Name: Campo_Luis
   m_TagString: Untagged
@@ -968,7 +967,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1673463892}
   m_Material: {fileID: 13400000, guid: ba92fb44336020f40bdf294bb66bc9da, type: 2}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: f9f4cf282e15d554380c26faf62dfd43, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 487fd5900a13f92478c74c37bc613e24, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1673463894
 Terrain:
@@ -1008,23 +1007,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1673463892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 618.390015, y: 41, z: 347.200012}
-  m_LocalScale: {x: 929.529053, y: 999, z: 999}
+  m_LocalPosition: {x: 57, y: 3, z: 79}
+  m_LocalScale: {x: 100, y: 10, z: 87.4991608}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!65 &1673463896
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1673463892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1744462093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,8 +1070,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744462093}
   m_LocalRotation: {x: 0, y: 0, z: .0105272764, w: .999944627}
-  m_LocalPosition: {x: 7668, y: 218, z: 5732}
-  m_LocalScale: {x: 200, y: 20, z: 200}
+  m_LocalPosition: {x: 337.100006, y: 46.9000015, z: 362}
+  m_LocalScale: {x: 12, y: 2, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
